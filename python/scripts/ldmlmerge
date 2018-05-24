@@ -89,7 +89,7 @@ if this.merge(other, base, default=args.default, copycomments=args.copycomments)
         i = this.find("./identity")
         idnode = et.SubElement("generation", i)
     currdate = datetime.now()
-    currdate.microsecond = 0
+    #currdate.microsecond = 0
     idnode.set("date","$Date: " + currdate.isoformat() + " $")
 sys.stdout = codecs.getwriter("UTF-8")(sys.stdout)
 this.normalise()

@@ -23,8 +23,10 @@
 		<special>
 			<sil:exemplarCharacters type="footnotes">[a b {ch} d e ẹ f g h i ị j k l m n o ọ p r s t u ụ v w y z]</sil:exemplarCharacters>
 		</special>
+		<exemplarCharacters draft="unconfirmed">[a b c {ch} d e {ẹ} f g {gb} {gh} {gw} h i {ị} j k {kp} {kw} l m n {ṅ} {nw} {ny} o {ọ} p r s {sh} t u {ụ} v w y z]</exemplarCharacters>
 		<exemplarCharacters draft="generated">[: a b c d e ẹ f g h i ị j k l m n ṅ o ọ p r s t u ụ v w y z]</exemplarCharacters>
 		<exemplarCharacters alt="proposed-dbl" draft="suspect">[A-PR-WYZa-pr-wyz\u1E44\u1E45\u1EB8\u1EB9\u1ECA-\u1ECD\u1EE4\u1EE5{CH}{GB}{GH}{GW}{KP}{KW}{NW}{NY}{SH}{ch}{gb}{gh}{gw}{kp}{kw}{nw}{ny}{sh}]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[q x]</exemplarCharacters>
 		<exemplarCharacters type="auxiliary" draft="generated">[ó]</exemplarCharacters>
 		<exemplarCharacters type="index" draft="generated">[: A B C D E Ẹ F G H I Ị J K L M N Ṅ O Ọ P R S T U Ụ V W Y Z]</exemplarCharacters>
 		<exemplarCharacters type="punctuation" draft="generated">[! ' ( ) , - . / ; ? \[ \] — ‘ ’ “ ” …]</exemplarCharacters>

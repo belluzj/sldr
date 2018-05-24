@@ -10,22 +10,33 @@
 	</identity>
 	<special>
 		<sil:external-resources>
-			<sil:font name="Scheherazade"/>
+            <sil:font name="Scheherazade"/>
+			<sil:kbd id="TunisianSpokenArabic" type="kmp">
+				<sil:url>https://wirl.api.sil.org/TunisianSpokenArabic</sil:url>
+			</sil:kbd>
+			<sil:spell-checking type="hunspell">
+				<sil:url>https://wirl.api.sil.org/aeb-DictList</sil:url>
+			</sil:spell-checking>
 		</sil:external-resources>
 	</special>
 	<layout>
 		<orientation>
-			<characterOrder>left-to-right</characterOrder>
+			<characterOrder>right-to-left</characterOrder>
 		</orientation>
 	</layout>
 	<characters>
 		<special>
 			<sil:exemplarCharacters type="footnotes">[1 2 3 4 5 6 7 8 9]</sil:exemplarCharacters>
 		</special>
+		<exemplarCharacters draft="unconfirmed">[\u064E \u064F \u0650 \u0651 \u0652 ء آ أ ؤ إ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ى ي ٱ]</exemplarCharacters>
 		<exemplarCharacters draft="generated">[0 1 2 3 4 5 6 7 8 9 : ء ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ى ي \u064e \u064f \u0650 \u0651 \u0652 \u0653 \u0654 \u0655]</exemplarCharacters>
 		<exemplarCharacters alt="proposed-dbl" draft="suspect">[\u0621-\u063A\u0641-\u064A\u0670\u0671\u067E\u0686\u0698\u06A4\u06AF\u06CC{\u0627\u0644\u0644\u0647}]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary">[\u200C\u200D\u200E\u200F]</exemplarCharacters>
 		<exemplarCharacters type="auxiliary" draft="generated">[\u200c \u200f]</exemplarCharacters>
+		<exemplarCharacters type="index" draft="unconfirmed">[ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ي]</exemplarCharacters>
 		<exemplarCharacters type="index" draft="generated">[0 1 2 3 4 5 6 7 8 9 : ء ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ى ي]</exemplarCharacters>
+		<exemplarCharacters type="digits" draft="unconfirmed">[0 1 2 3 4 5 6 7 8 9]</exemplarCharacters>
+		<exemplarCharacters type="punctuation">[\- ‐ – — ، ؛ \: ! ؟ . ' " ( ) \[ \]]</exemplarCharacters>
 		<exemplarCharacters type="punctuation" draft="generated">[! " ( ) - . « » ، ؛ ؟]</exemplarCharacters>
 		<exemplarCharacters type="punctuation" alt="proposed-dbl" draft="suspect">[!"()\-.\:\u00AB\u00BB\u060C\u061B\u061F\u0640\u064B\u064C\u064E-\u0652\u0670\u0674\u200C\u200D{...}]</exemplarCharacters>
 	</characters>
@@ -124,6 +135,11 @@
 				ء
 				الله</sil:simple>
 			</special>
+			<cr><![CDATA[
+				[reorder Arab]
+			    &ء<ا<<آ<<أ<<إ<<ٱ<ب<ت<ث<ج<ح<خ<د<ذ<ر<ز<س<ش<ص<ض<ط<ظ<ع<غ<ف<ق<ك<ل<م<ن<ه<<ة<و<<ؤ<ي<<ى<<ئ
+				&\u0652<<\u064E<<\u0650<<\u064F<<\u0651
+			]]></cr>
 			<cr draft="generated"><![CDATA[
 				&ا << ى << ٱ << آ << أ << ٰ << ئ << ؤ << ي <<< إ << و << ی
 				&خ < چ

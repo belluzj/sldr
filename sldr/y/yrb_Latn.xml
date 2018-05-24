@@ -19,8 +19,10 @@
 		</orientation>
 	</layout>
 	<characters>
+		<exemplarCharacters draft="unconfirmed">[a b d e f g i j k m n o r s t u w y]</exemplarCharacters>
 		<exemplarCharacters draft="generated">[a b d e f g i j k m n o r s t u w y]</exemplarCharacters>
 		<exemplarCharacters alt="proposed-dbl" draft="suspect">[A-Za-z]</exemplarCharacters>
+		<exemplarCharacters type="auxiliary" draft="unconfirmed">[c h l p q v x z]</exemplarCharacters>
 		<exemplarCharacters type="auxiliary" draft="generated">[:]</exemplarCharacters>
 		<exemplarCharacters type="index" draft="generated">[A B D E F G I J K M N O R S T U W Y]</exemplarCharacters>
 		<exemplarCharacters type="punctuation" draft="generated">[! ( ) , . ?]</exemplarCharacters>
